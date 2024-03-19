@@ -26,7 +26,7 @@ species_mapping = {
 @app.route('/')
 def index():
     # Render the HTML template
-    template_path = os.path.join(current_dir, 'templates', 'input.html')
+#     template_path = os.path.join(current_dir, 'templates', 'input.html')
     return render_template('input.html')
 
 # Route to handle prediction requests
